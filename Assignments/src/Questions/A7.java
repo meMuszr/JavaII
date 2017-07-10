@@ -15,25 +15,28 @@ public class A7 implements IRunner {
     public String getQuestionID() {
         return "A7";
     }
+
     public IRunner Run(String args) {
         try (Scanner scanner = new Scanner(new FileReader(args))) {
             int trials = scanner.nextInt();
-            for(int i = 0; i < trials; i++) {
-                scanner.nextInt(); scanner.nextLine();
+            while (trials != 0) {
+                scanner.nextInt();
+                scanner.nextLine();
                 String[] strNumbers = scanner.nextLine().split(" ");
                 int[] numbers = new int[strNumbers.length];
                 int score = Integer.parseInt(strNumbers[0]);
-                for(int j=1; j < strNumbers.length; j++) {
+                for (int j = 1; j < strNumbers.length; j++) {
                     int value = Integer.parseInt(strNumbers[j]);
-                    if(value < score) score = value;
+                    if (value < score) score = value;
                 }
                 System.out.println(score * (numbers.length - 1));
+                trials--;
             }
             while (scanner.hasNextInt()) {
                 int currentValue = scanner.nextInt();
                 int counter = 0;
-                for(int i = 1; i <= Math.sqrt(currentValue); i++)
-                    if(currentValue%i == 0) counter++;
+                for (int i = 1; i <= Math.sqrt(currentValue); i++)
+                    if (currentValue % i == 0) counter++;
                 System.out.println(counter);
             }
         } catch (InputMismatchException e) {
