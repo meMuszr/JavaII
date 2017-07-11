@@ -1,4 +1,4 @@
-package Questions;
+package questions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -8,7 +8,6 @@ import java.util.*;
  * Mustafa Abdul-Kader
  * CMPSC-203-01
  * Dr Mehta
- * ${Date}
  */
 public class A7 implements IRunner {
     // DOES NOT ALLOW DISTINCT NUMBERS

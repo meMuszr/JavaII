@@ -1,10 +1,9 @@
-package Questions;
+package questions;
 
 /**
  * Mustafa Abdul-Kader
  * CMPSC-203-01
  * Dr Mehta
- * ${Date}
  */
 public class A4 implements IRunner {
     public String getQuestionID() {

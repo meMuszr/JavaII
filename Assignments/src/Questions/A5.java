@@ -1,4 +1,4 @@
-package Questions;
+package questions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

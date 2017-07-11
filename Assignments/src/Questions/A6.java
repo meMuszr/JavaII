@@ -1,4 +1,4 @@
-package Questions;
+package questions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -9,7 +9,6 @@ import java.util.Scanner;
  * Mustafa Abdul-Kader
  * CMPSC-203-01
  * Dr Mehta
- * ${Date}
  */
 public class A6 implements IRunner {
     public String getQuestionID() {

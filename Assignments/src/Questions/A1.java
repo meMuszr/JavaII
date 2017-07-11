@@ -1,4 +1,4 @@
-package Questions;
+package questions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -83,7 +83,6 @@ public class A1 implements IRunner {
 
     private Stack<Integer> convertNumberToStack(int n) {
         Stack<Integer> st = new Stack<>();
-        int i = 0;
         while (n > 0) {
             st.push(n % 10);
             n /= 10;

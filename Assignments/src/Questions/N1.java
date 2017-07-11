@@ -1,8 +1,7 @@
-package Questions;
+package questions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -12,7 +11,6 @@ import java.util.Scanner;
  * Dr Mehta
  */
 public class N1 implements IRunner {
-    private ArrayList<Integer> arrayListFactors = new ArrayList<>();
     public String getQuestionID() {
         return "N1";
     }

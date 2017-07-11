@@ -1,9 +1,8 @@
-package Questions;
+package questions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.InputMismatchException;
-import java.util.Map;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -11,7 +10,6 @@ import java.util.regex.Pattern;
  * Mustafa Abdul-Kader
  * CMPSC-203-01
  * Dr Mehta
- * ${Date}
  */
 public class N7 implements IRunner {
     public String getQuestionID() {
