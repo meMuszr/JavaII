@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignments/src/Inputs/A6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/src/Questions/A6.java" afterPath="$PROJECT_DIR$/Assignments/src/Questions/A6.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/src/Questions/N6.java" afterPath="$PROJECT_DIR$/Assignments/src/Questions/N6.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/src/Questions/N7.java" afterPath="$PROJECT_DIR$/Assignments/src/Questions/N7.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assignments/src/Inputs/N7" afterPath="$PROJECT_DIR$/Assignments/src/Inputs/N7" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -160,7 +155,7 @@
       <file leaf-file-name="A6.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assignments/src/Questions/A6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6934189" vertical-offset="180" max-vertical-offset="1037">
+            <state vertical-scroll-proportion="0.5634029" vertical-offset="261" max-vertical-offset="1037">
               <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
               <folding />
             </state>
@@ -202,7 +197,6 @@
         <option value="$PROJECT_DIR$/Assignments/src/Questions/A2.java" />
         <option value="$PROJECT_DIR$/Assignments/src/Questions/A3.java" />
         <option value="$PROJECT_DIR$/Assignments/src/Questions/A4.java" />
-        <option value="$PROJECT_DIR$/Assignments/src/Questions/A6.java" />
         <option value="$PROJECT_DIR$/Assignments/src/Questions/N2.java" />
         <option value="$PROJECT_DIR$/Assignments/src/Questions/N3.java" />
         <option value="$PROJECT_DIR$/Assignments/src/Questions/N4.java" />
@@ -222,6 +216,7 @@
         <option value="$PROJECT_DIR$/Assignments/src/Questions/N8.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assignments/src/Inputs/A6" />
+        <option value="$PROJECT_DIR$/Assignments/src/Questions/A6.java" />
       </list>
     </option>
   </component>
@@ -666,12 +661,12 @@
       <workItem from="1498937313863" duration="4535000" />
       <workItem from="1498941916587" duration="13846000" />
       <workItem from="1499300106201" duration="26805000" />
-      <workItem from="1499743783166" duration="1226000" />
+      <workItem from="1499743783166" duration="1736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48593000" />
+    <option name="totallyTimeSpent" value="49103000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -1121,7 +1116,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assignments/src/Questions/A6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6934189" vertical-offset="180" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="0.5634029" vertical-offset="261" max-vertical-offset="1037">
           <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding />
         </state>
