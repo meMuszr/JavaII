@@ -11,7 +11,6 @@ public class N6 implements IRunner {
         return "N6";
     }
     public IRunner Run(String args) {
-
         return this;
     }
 }
