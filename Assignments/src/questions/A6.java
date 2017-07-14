@@ -25,7 +25,7 @@ public class A6 implements IRunner {
                 scanner.nextLine();
                 Reservoir = new char[height][];
                 for (int i = 0; i < height; i++) Reservoir[i] = scanner.nextLine().toCharArray();
-                System.out.println(checkReservoir() ? "yes" : "no");
+                System.out.println(checkReservoir() ? "YES" : "NO");
                 trials--;
             }
         } catch (InputMismatchException e) {

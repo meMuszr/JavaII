@@ -8,9 +8,8 @@ public class Program {
 
     public static void main(String args[]) {
         for (IRunner question : questionsArr){ 
-        	System.out.println(question.getQuestionID() + "\n----");
+        	System.out.println("----\n" + question.getQuestionID() + "\n----");
         	question.Run(getRelativeUrl("../inputs/" + question.getQuestionID()));
-        	System.out.println("----");
         }
     }
 
