@@ -8,7 +8,6 @@ import java.util.*;
  * Mustafa Abdul-Kader
  * CMPSC-203-01
  * Dr Mehta
- * ${Date}
  */
 public class A5 implements IRunner {
     private static class Plate implements Comparable<Plate> {
