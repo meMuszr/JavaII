@@ -5,39 +5,50 @@ import java.io.FileReader;
 import java.util.*;
 
 /**
- * Mustafa Abdul-Kader
- * CMPSC-203-01
- * Dr Mehta
+ * @author      Mustafa Abdul-Kader <abdulkader.m01@mymail.sxu.edu>
+ * @version     1.0
+ * @since       1.0
+ * https://github.com/meMuszr
  */
 public class A7 implements IRunner {
     // DOES NOT ALLOW DISTINCT NUMBERS
+
+
+    /**
+     * Gets the question ID
+     * @return Question ID
+     */    
     public String getQuestionID() {
         return "A7";
     }
 
     public IRunner Run(String args) {
+        // start disposable scanner reading file input
         try (Scanner scanner = new Scanner(new FileReader(args))) {
+            // get trials
             int trials = scanner.nextInt();
+            // loop through trials
             while (trials != 0) {
+                // token skipping
                 scanner.nextInt();
                 scanner.nextLine();
+                // parse line to string array
                 String[] strNumbers = scanner.nextLine().split(" ");
+                // create integer array
                 int[] numbers = new int[strNumbers.length];
+                // grab first value
                 int score = Integer.parseInt(strNumbers[0]);
+                // find min value and store in score
                 for (int j = 1; j < strNumbers.length; j++) {
                     int value = Integer.parseInt(strNumbers[j]);
                     if (value < score) score = value;
                 }
+                // print min multipied by amount left in array
                 System.out.println(score * (numbers.length - 1));
+                // decrement trials
                 trials--;
             }
-            while (scanner.hasNextInt()) {
-                int currentValue = scanner.nextInt();
-                int counter = 0;
-                for (int i = 1; i <= Math.sqrt(currentValue); i++)
-                    if (currentValue % i == 0) counter++;
-                System.out.println(counter);
-            }
+            // catch exceptions
         } catch (InputMismatchException e) {
             System.out.println("Error with input");
         } catch (FileNotFoundException e) {

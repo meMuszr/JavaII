@@ -6,9 +6,11 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
- * Mustafa Abdul-Kader
- * CMPSC-203-01
- * Dr Mehta
+ * @author      Mustafa Abdul-Kader <abdulkader.m01@mymail.sxu.edu>
+ * @version     1.0
+ * @since       1.0
+ * https://github.com/meMuszr
+ * See A4 for comments
  */
 public class N3 implements IRunner {
     public String getQuestionID() {
